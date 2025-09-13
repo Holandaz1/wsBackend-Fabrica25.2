@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Sistema de produtos{% endblock %}</title>
+</head>
+<body>
+<h1>Gestão de Produtos</h1>
+<nav>
+    <a href="/">Ver Produtos</a> | <a href="/criar/">Novo Produto</a>
+</nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
